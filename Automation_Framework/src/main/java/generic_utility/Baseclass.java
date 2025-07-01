@@ -71,6 +71,7 @@ public class Baseclass {
 	@AfterSuite
 	public void reportBackup() {
 		ereport.flush();
+		ereport.flush();
 	}
 	
 }
