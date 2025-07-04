@@ -19,7 +19,7 @@ public class TC_DWS_002_Test extends Baseclass {
 		Homepage hp = new Homepage(driver);
 		hp.getComputerslink().click();
 		
-		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Computers","Computer page is not loaded");
+		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Computerss","Computer page is not loaded");
 		test.log(Status.PASS, "Computer page is loaded");
 		
 		}
